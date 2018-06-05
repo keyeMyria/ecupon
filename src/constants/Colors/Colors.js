@@ -6,8 +6,6 @@ const Colors = {
 	lightGreen: '#acf083',
 	darkGreen: '#7EAF60',
 	white: '#FFF',
-	red: 'red',
-	blue: 'blue',
 	redGoogle: '#dc4e41',
 	blueFacebook: '#485a96',
 	button:'#624a8f', 

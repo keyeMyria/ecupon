@@ -6,13 +6,8 @@ import ecoCupon from '../../../native-base-theme/variables/ecoCupon';
 import getTheme from '../../../native-base-theme/components';
 import Colors from '../../constants/Colors/Colors';
 import EcoButton from '../../components/EcoButton/EcoButton';
-import Navigation from 'react-native-navigation';
 
-class RegisterScreen extends Component {
-	handleButton = () => {
-		this.props.navigator.dismissModal();
-	}
-
+class SearchTab extends Component {
 	render()   {
 		return(
 			<StyleProvider style={getTheme(ecoCupon)}>
@@ -20,7 +15,7 @@ class RegisterScreen extends Component {
 					<Grid >
 						<Row style={styles.rowLogo} size={5}>
 							<View style={styles.viewLogo}>
-								<Text style={styles.textLogo}>eCupon</Text>
+								<Text style={styles.textLogo}>Search Tab</Text>
 							</View>		
 						</Row>
 						<Row style={styles.rowButtons} size={3}>
@@ -28,7 +23,6 @@ class RegisterScreen extends Component {
 								<EcoButton 
 									icon={require('../../../resources/icons/email-logo.png')}
 									color={Colors.button}
-									onPress={this.handleButton}
 								>
 								Regístrate con tu correo
 								</EcoButton>
@@ -69,4 +63,4 @@ const styles = StyleSheet.create ({
 		alignSelf:'center' 
 	},
 });
-export default RegisterScreen;
+export default SearchTab;
