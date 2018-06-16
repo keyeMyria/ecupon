@@ -35,7 +35,7 @@ export default class App extends Component {
 		case 'login':
 			Navigation.startSingleScreenApp({
 				screen: {
-					screen: 'eCupon.Login',
+					screen: 'eCupon.TabbedLogin',
 					navigatorStyle: { navBarHidden: true},
 					navigatorButtons: {},
 				}

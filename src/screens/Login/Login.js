@@ -32,7 +32,7 @@ class Login extends Component {
 							color={Colors.button}
 							onPress={this.handleOnEmailPress.bind(this)}
 						>
-									Regístrate con tu correo
+									Regístrate con tu correo 
 						</EcoButton>
 						<EcoButton 
 							icon={require('../../../resources/icons/facebook-logo.png')}
